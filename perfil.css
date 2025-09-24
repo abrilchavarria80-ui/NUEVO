@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #D3D3D3;  /* Fondo LightGray */
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.profile-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.profile-icon {
+    font-size: 80px;  /* Tamaño grande del ícono */
+    color: #444444;   /* Color gris oscuro */
+    margin-bottom: 20px;
+}
+
+.profile-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #555555;
+}
+
+.profile-item i {
+    margin-right: 12px;
+    font-size: 20px;
+    color: #444444;
+}
+
+.profile-item span {
+    font-weight: bold;
+    color: #333333;  /* Color negro para el texto destacado */
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-back:hover {
+    background-color: #444444;
+}

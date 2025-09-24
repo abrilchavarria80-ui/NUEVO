@@ -1,0 +1,80 @@
+.btn-group {
+    box-shadow:inset 0px 1px 0px 0px #fff6af;
+    background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    background-color:#ffec64;
+    border-radius:6px;
+    border:1px solid #ffaa22;
+    display:inline-block;
+    cursor:pointer;
+    color:#333333;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffee66;
+}
+
+.Button:hover {
+    background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    background-color:#131312;
+}
+.Button:active {
+    position:relative;
+    top:1px;
+}
+
+.bouncy{
+position:relative;
+  top:1px;
+}
+  
+.bouncy2{
+position:relative;
+  top:1px;
+}
+  
+@keyframes bouncy {
+0%{top:0em}
+40%{top:0em}
+43%{top:-0.9em}
+46%{top:0em}
+48%{top:-0.4em}
+50%{top:0em}
+100%{top:0em;}
+}
+  
+  
+.btn-group .btn {
+  width: 30%;
+}
+  
+.btn-group {
+  width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ece6e6; /* Fondo gris oscuro */
+    color: #161616; /* Texto gris claro */
+    font-size: 14px;
+    margin-top: 20px;
+}
+p {
+  /* Propiedades de estilo para el párrafo */
+  color: #000000; /* Color del texto */
+  font-family: Arial, sans-serif; /* Familia de fuente */
+  font-size: 20px; /* Tamaño del texto en píxeles */
+  line-height: 1.5; /* Interlineado o espacio entre líneas */
+  text-align: center; /* Alineación del texto (izquierda, derecha, centro, justificado) */
+  margin-bottom: 2em; /* Espacio debajo del párrafo */
+  text-indent: 20px; /* Sangrado de la primera línea */
+}
+h2 {
+  color: #f8f6f6; /* Color de texto oscuro */
+  font-size: 28px; /* Tamaño de fuente más grande */
+  margin-bottom: 15px; /* Espacio debajo del subtítulo */
+  font-weight: bold; /* Texto en negrita */
+  text-align: center;/* Alineación del texto (izquierda, derecha, centro, justificado) */
+}
